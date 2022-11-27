@@ -1,0 +1,260 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: rgb(68, 30, 73);
+    color: white
+}
+
+
+.header_img {
+    height: 100px;
+    border-radius: 50%;
+}
+
+.header___text {
+    font-size: 14px;
+}
+
+main {
+    background-color: rgb(255, 253, 251);
+}
+
+.form_impyt_heading,
+.form_heading {
+    background-color: rgb(248, 222, 252);
+}
+
+.form {
+    background-color: rgb(248, 222, 252);
+    color: rgb(0, 0, 0);
+}
+
+.form_impyt,
+.form_textarea {
+    background: rgb(248, 222, 252);
+    border: none;
+    border-bottom: solid 1px rgb(68, 30, 73);
+    width: 400px;
+}
+
+.form_textarea {
+    width: 700px;
+    height: 50px;
+}
+
+.form_btn {
+    color: white;
+    width: 150px;
+    height: 40px;
+    border: none;
+    background: rgb(68, 30, 73);
+}
+
+.Language_list,
+.footer_container {
+    list-style-type: none;
+}
+
+.footer {
+    color: white;
+    background-color: rgb(68, 30, 73);
+}
+
+.footer_link {
+    color: white;
+}
+
+.footer_text {
+    color: rgba(192, 187, 187, 0.856);
+    background: rgb(68, 30, 73);
+
+}
+
+.Contactss_heading,
+.Contactss_list {
+    color: white;
+    background: rgb(68, 30, 73);
+}
+
+.Contactss_link {
+    color: white;
+    text-decoration: none
+}
+
+.link {
+    color: white;
+    text-decoration: none
+}
+
+
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.header_wrap {
+    display: flex;
+}
+
+.header_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+}
+
+.header {
+    background-color: rgb(68, 30, 73);
+}
+
+.header_img {
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.header_title {
+    padding-bottom: 5px;
+}
+
+.Objective {
+    background-color: rgb(255, 253, 251);
+}
+
+.Objective_heading {
+    padding-bottom: 5px;
+    padding-top: 60px;
+}
+
+.Objective_text {
+    padding-bottom: 15px;
+}
+
+.Experience_heading {
+    padding-bottom: 50px;
+    padding-top: 80px;
+}
+
+.Experience_wrapper {
+    display: flex;
+    padding-bottom: 0px;
+    padding-top: 25px;
+}
+
+.Experience_title {
+
+    padding-top: 5px;
+    padding-bottom: 50px;
+}
+
+.Experience_content {
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-top: 5px
+}
+
+.Experience_text {
+    padding-right: 100px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.Experience__text {
+    padding-right: 80px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.Experience_content {
+    padding-left: 180px;
+}
+
+
+.Skills_heading {
+    padding-bottom: 25px;
+    padding-top: 45px;
+}
+
+.Language {
+    padding-bottom: 25px;
+}
+
+.Language_heading {
+    padding-bottom: 10px;
+    padding-top: 35px;
+}
+
+
+.Language_item::before {
+    list-style-type: none;
+    content: "\2022";
+    display: inline-block;
+    width: 1em;
+    padding-top: 5px;
+}
+
+.from_heading {
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+
+.button {
+    padding-bottom: 25px;
+    padding-top: 35px;
+    text-align: center
+}
+
+.footer_container,
+.textarea {
+    padding: auto;
+    text-align: center;
+}
+
+.footer_t {
+    padding: auto;
+    text-align: center;
+}
+
+.box {
+    padding-bottom: 25px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+.box2 {
+    padding-bottom: 25px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+
+}
+
+.Contactss_heading {
+    padding-top: 25px;
+
+}
+
+.Contactss_heading,
+.Contactss_list {
+
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 150px;
+    padding-right: 150px;
+
+
+
+
+}
